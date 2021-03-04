@@ -1,6 +1,6 @@
 # springjam
 
-Game for Spring Jam 2021
+Game for Great Spring Jam 2021
 
 TODO: 
   - Garden Tiles
