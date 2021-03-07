@@ -13,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - WalkableGround
+  - NoCollisions
+  - GardenTile
   - 
   - 
   - 
