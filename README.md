@@ -1,12 +1,7 @@
-# springjam
+# spring
 
-Game for Great Spring Jam 2021
-
-TODO: 
-  - Garden Tiles
+Currently in development: 
   - Player Inventory
-  - Player House (?)
-  - Shop (?)
 
 
 <h2>Camera and Player Movement</h2>
