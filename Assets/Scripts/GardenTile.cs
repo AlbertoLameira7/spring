@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GardenTile : MonoBehaviour
+public class GardenTile : GardenTileStateMachine
 {
     private Color _defaultColor, _highlightColor;
     private bool _isUsed;
@@ -42,10 +42,5 @@ public class GardenTile : MonoBehaviour
         {
             gameObject.GetComponent<Renderer>().material.color = _defaultColor;
         }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("hmmm");
     }
 }

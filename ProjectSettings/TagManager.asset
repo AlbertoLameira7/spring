@@ -16,7 +16,7 @@ TagManager:
   - WalkableGround
   - NoCollisions
   - GardenTile
-  - 
+  - InteractCollider
   - 
   - 
   - 

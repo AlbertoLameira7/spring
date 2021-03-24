@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class GardenTileStateMachine : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    protected GardenTileState gardenTileState;
+
+    public void SetState(GardenTileState state)
     {
-        
+        if (gardenTileState != null)
+        {
+            gardenTileState.Exit();
+        }
+
+        gardenTileState = state;
+        gardenTileState.Enter();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UpdateState()
     {
-        
+        gardenTileState.Update();
     }
 }

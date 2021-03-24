@@ -10,7 +10,10 @@ public class Interact : PlayerState
 
     public override IEnumerator Enter()
     {
-        Entity.Target.GetComponent<GardenTile>().UseTile();
+        if (Entity.InteractableObjects.Contains(Entity.Target))
+        {
+            Entity.Target.GetComponent<GardenTile>().UseTile();
+        }
         yield return new WaitForSeconds(0f);
     }
 
