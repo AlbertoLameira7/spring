@@ -22,6 +22,6 @@ Currently in development:
 
 <h2>First Implementation of Inventory System</h2>
 
-![](Gifs/sping-inventory-open.gif)
+![](Gifs/spring-inventory-open.gif)
 
 <p>First inventory system, inventory opens with Tab key, currently has multiple stacks of dummy items, the numbers represent the amount of that item and each slot is a unique item. It is also possible to walk around with the inventory open</p>
